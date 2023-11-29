@@ -11,7 +11,7 @@ myDrawBoard::myDrawBoard(QProgressBar *prBar, QWidget *parent) : QWidget(parent)
     pBar = prBar;
 
     std::fstream file_weights;
-    file_weights.open("D:/Projects/Qt/MNIST-visual/weights.txt");
+    file_weights.open("weights.txt");
 
     weights1 = new double*[200];
     weights2 = new double*[100];
