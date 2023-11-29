@@ -1,0 +1,22 @@
+QWidget {
+    background-color:rgb(40, 40, 40);
+}
+QLabel {
+    color:rgb(230, 230, 230);
+    font-weight: bold;
+    font-size: 25px;
+}
+QGraphicsView {
+    border: 0px;
+    background-color:rgb(60, 60, 60);
+}
+QProgressBar {
+    border-radius: 5px;
+    background-color: #202020;
+}
+QProgressBar::chunk {
+    border-radius: 5px;
+    text-align: center;
+    background-color: #31ee00;
+
+}
